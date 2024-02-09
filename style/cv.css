@@ -1,0 +1,33 @@
+.cv-main {
+  width: 90%;
+  margin: auto;
+}
+
+.cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color:white;
+  border: 1px solid white;
+}
+
+.element, .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 5px;
+}
+
+.annee, .observation {
+  color: blue;
+}
+
+@media screen and (max-width:768px) {
+  .a-propos-main {
+    width: 100%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

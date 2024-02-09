@@ -1,0 +1,106 @@
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.accueil-introduction div {
+  padding-right: 80px;
+}
+
+.section-contact label {
+  color: white;
+}
+
+.section-contact h2 {
+  color: blue;
+  text-align: center;
+  margin: 20px;
+}
+
+.section-contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#envoyer {
+  border: 1px solid blue;
+  border-radius: 30px;
+  background: blue;
+  width: auto;
+  padding: 20px;
+  color: white;
+}
+
+#envoyer:hover {
+  background: blue;
+}
+
+.section-contact input {
+  width: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.site-web img {
+  border: 2px solid blue;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 1000px;
+}
+
+#profil-caums {
+  border: 1px solid blue;
+  border-radius: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .accueil-introduction {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .site-web img {
+    border: 2px solid blue;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 600px;
+  }
+  #profil-caums {
+    margin-top: 20px;
+  }
+}
